@@ -1,0 +1,27 @@
+[2021-10-26 14:48:27,687] ================================================================ (start)
+[2021-10-26 14:48:30,576] * Logging initialized @3011ms to org.eclipse.jetty.util.log.Slf4jLog 
+[2021-10-26 14:48:31,029] * jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 1.8.0_121-b13 
+[2021-10-26 14:48:32,192] * NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet 
+[2021-10-26 14:48:32,214] * DefaultSessionIdManager workerName=node0 
+[2021-10-26 14:48:32,214] * No SessionScavenger set, using defaults 
+[2021-10-26 14:48:32,214] * node0 Scavenging every 600000ms 
+[2021-10-26 14:48:34,412] INFO  Application:42 - Resources scan took 1119
+[2021-10-26 14:48:34,453] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.floating.g
+[2021-10-26 14:48:34,615] INFO  e:63 - Initializing from server-config.xml
+[2021-10-26 14:48:35,074] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.config.Config
+[2021-10-26 14:48:35,074] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.floating.reporting.LicensesRunningOutNotification
+[2021-10-26 14:48:35,074] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.floating.reporting.ReportingQueue
+[2021-10-26 14:48:35,074] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.floating.reporting.ResultStorage
+[2021-10-26 14:48:35,084] INFO  Storage:160 - Saving results of 26/10/2021 14:48
+[2021-10-26 14:48:35,869] INFO  Storage:50 - Time spent in preparing result to save: 31.220688ms, in saving on disk: 812.577419ms
+[2021-10-26 14:48:35,922] INFO  e:115 - Initializing with data: FloatingServerStateResponse[action='NONE', allowance='<hidden>', infoMessages='[]', intermediateCertificates='<hidden>', lease='1635472180099:wzk8p2yd7l', leaseSha512Signature='SHA512withRSA-mr8agl1phW3YDJZpxQlUuKDhxa33YXu24O/XTbx9fHdCqMdhK1HFjtAYvplY19zY7o2Uj00PD7+s+be8NIwYdvk3mUlZoEC+i+M7c+OFmwCXTIzc/iPo+yrTIW3jrz206a3DVIXw7b2omWb5UIdWhTpq6wMyr82R0x9RWtdwQzUSxnGBbhH5Cp90r0WN4/xGOho0+lc/z188+dmggFS8poy7O26PegmTf9ogbRFVBw4/esKjEG+cWhixHpaENDCrdC+zTVOZaem7EO7cm+oDaFtX6cdK4EZFYsuwuXCYD45Z0hgf6kc037UQKtsVaIV0jikHLIUgFQVm8ZkmNI0RdA==-MIIETDCCAjSgAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTIwMTAxOTA5MDU1M1oXDTIyMTAyMTA5MDU1M1owHzEdMBsGA1UEAwwUcHJvZDJ5LWZyb20tMjAyMDEwMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCP4uk4SlVdA5nuA3DQC+NsEnZS9npFnO0zrmMWcz1++q2UWJNuGTh0rwi+3fUJIArfvVh7gNtIp93rxjtrQAuf4/Fa6sySp4c32MeFACfC0q+oUoWebhOIaYTYUxm4LAZ355vzt8YeDPmvWKxA81udqEk4gU9NNAOz1Um5/8LyR8SGsSc4EDBRSjcMWMwMkYSauGqGcEUK8WhfplsyF61lKSOFA6VmfUmeDK15rUWWLbOMKgn2cxFA98A+s74T9Oo96CU7rp/umDXvhnyhAXSukw/qCGOVhwKR8B6aeDtoBWQgjnvMtPgOUPRTPkPGbwPwwDkvAHYiuKJ7Bd2wH7rAgMBAAGjgZkwgZYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUJNoRIpb1hUHAk0foMSNM9MCEAv8wSAYDVR0jBEEwP4AUo562SGdCEjZBvW3gubSgUouX8bOhHKQaMBgxFjAUBgNVBAMMDUpldFByb2ZpbGUgQ0GCCQDSbLGDsoN54TATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggIBAB2J1ysRudbkqmkUFK8xqhiZaYPd30TlmCmSAaGJ0eBpvkVeqA2jGYhAQRqFiAlFC63JKvWvRZO1iRuWCEfUMkdqQ9VQPXziE/BlsOIgrL6RlJfuFcEZ8TK3syIfIGQZNCxYhLLUuet2HE6LJYPQ5c0jH4kDooRpcVZ4rBxNwddpctUO2te9UU5/FjhioZQsPvd92qOTsV+8Cyl2fvNhNKD1Uu9ff5AkVIQn4JU23ozdB/R5oUlebwaTE6WZNBs+TA/qPj+5/wi9NH71WRB0hqUoLI2AKKyiPw++FtN4Su1vsdDlrAzDj9ILjpjJKA1ImuVcG329/WTYIKysZ1CWK3zATg9BeCUPAV1pQy8ToXOq+RSYen6winZ2OO93eyHv2Iw5kbn1dqfBw1BuTE29V2FJKicJSu8iEOpfoafwJISXmz1wnnWL3V/0NxTulfWsXugOoLfv0ZIBP1xH9kmf22jjQ2JiHhQZP7ZDsreRrOeIQ/c4yR8IQvMLfC0WKQqrHu5ZzXTH4NO3CwGWSlTY74kE91zXB5mwWAx1jig+UXYc2w4RkVhy0//lOmVya/PEepuuTTI4+UJwC7qbVlh5zfhj8oTNUXgN0AOc+Q0/WFPl1aw5VV/VrO8FCoB15lFVlpKaQ1Yh+DVU8ke+rt9Th0BCHXe0uZOEmH0nOnH/0onD', leaseSignature='008068fb8d8b51cb323e252c8c50f716998eef84897ce805a6c0173dbfc8cac300c3d23ef7c7d945d17473513f7ab133b4958efa041016ff31394e5ed4aa72d5', licenseType='5', licenseTypeText='Classroom License', licensee='China University of Mining and Technology', licenses='<hidden>', message='', metadata='0120211026LXFXXXXXXX', postBilling='PostBillingDescriptor(item_ids=, licenseThreshold=0, notificationThreshold=0, mainContacts=)', productMapping='<hidden>', productReleases='<hidden>', responseCode='OK', salt='1635212979499', serverUID='wzk8p2yd7l', signCertificate='<hidden>', signPrivateKey='<hidden>', validationDeadlinePeriod='-1', validationPeriod='1000']
+[2021-10-26 14:48:36,027] INFO  Storage:40 - Results: 19/10/2021 17:16 - 26/10/2021 14:48. Last uploaded: 26/10/2021 09:16
+[2021-10-26 14:48:36,027] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.floating.rpc.FloatingServerRpcHandler
+[2021-10-26 14:48:36,456] INFO  ApplicationContext:33 - Executing startup sequence on class com.jetbrains.ls.floating.d.b
+[2021-10-26 14:48:36,498] * Started o.e.j.w.WebAppContext@5698650{JetBrains License Service,/,file:///www/wwwroot/idea.uunn.eu/web/,AVAILABLE,localhost} 
+[2021-10-26 14:48:36,498] * Started c.j.l.f.s.FakeHostsHandler@9daf373{Error handler,/,null,AVAILABLE} 
+[2021-10-26 14:48:36,580] * Started ServerConnector@26b3f110{HTTP/1.1, (http/1.1)}{127.0.0.1:8080} 
+[2021-10-26 14:48:36,580] * Started @9017ms 
+[2021-10-26 14:48:36,580] * JetBrains License Service is listening on {127.0.0.1:8080} 
+[2021-10-26 14:48:38,647] INFO  Storage:106 - Uploaded results for 26/10/2021 14:16
+[2021-10-26 14:49:32,315] done

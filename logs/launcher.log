@@ -1,0 +1,70 @@
+[2021-10-26 09:52:52,043]  TRACE -                           root - [stop] ================================================================ (start)
+[2021-10-26 09:52:52,067]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher process ID: 30357
+[2021-10-26 09:52:52,069]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher Java: /usr/java/jdk1.8.0_121/jre (version "1.8.0_121", build "1.8.0_121-b13")
+[2021-10-26 09:52:52,069]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetBrains License Service home directory: /www/wwwroot/idea.uunn.eu
+[2021-10-26 09:52:52,069]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Command line: [stop]
+[2021-10-26 09:52:52,069]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher logs directory: <JetBrains License Service Home>/logs
+[2021-10-26 09:52:52,070]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher version: 1.0.131
+[2021-10-26 09:52:52,070]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Loaded launcher plugins: [mac-daemon-commands, ConfPathProvider, win-service-commands]
+[2021-10-26 09:52:52,070]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetBrains License Service config folder: <JetBrains License Service Home>/conf
+[2021-10-26 09:52:52,071]  DEBUG - .BaseLauncherConfig$BaseParser - [stop] Using launcher configuration file: jar:file:<JetBrains License Service Home>/launcher/lib/license-server-launcher.jar!/launcher.java.config
+[2021-10-26 09:52:52,102]  ERROR - ains.launcher.ep.commands.Stop - [stop] JetBrains License Service is not running
+[2021-10-26 09:52:52,103]  TRACE -                           root - [stop] ================================================================ (finish)
+[2021-10-26 09:56:41,119]  TRACE -                           root - [configure] ================================================================ (start)
+[2021-10-26 09:56:41,136]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher process ID: 31980
+[2021-10-26 09:56:41,142]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher Java: /usr/java/jdk1.8.0_121/jre (version "1.8.0_121", build "1.8.0_121-b13")
+[2021-10-26 09:56:41,142]  DEBUG - launcher.ep.commands.Configure - [configure] JetBrains License Service home directory: /www/wwwroot/idea.uunn.eu
+[2021-10-26 09:56:41,142]  DEBUG - launcher.ep.commands.Configure - [configure] Command line: [configure, --listen, 127.0.0.1, --port, 8080]
+[2021-10-26 09:56:41,142]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher logs directory: <JetBrains License Service Home>/logs
+[2021-10-26 09:56:41,142]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher version: 1.0.131
+[2021-10-26 09:56:41,143]  DEBUG - launcher.ep.commands.Configure - [configure] Loaded launcher plugins: [mac-daemon-commands, ConfPathProvider, win-service-commands]
+[2021-10-26 09:56:41,143]  DEBUG - launcher.ep.commands.Configure - [configure] JetBrains License Service config folder: <JetBrains License Service Home>/conf
+[2021-10-26 09:56:41,143]  DEBUG - .BaseLauncherConfig$BaseParser - [configure] Using launcher configuration file: jar:file:<JetBrains License Service Home>/launcher/lib/license-server-launcher.jar!/launcher.java.config
+[2021-10-26 09:56:41,243]  DEBUG - tbrains.launcher.run.JavaAgent - [configure] Reusing launcher Java for JetBrains License Service
+[2021-10-26 09:56:41,262]  DEBUG - tbrains.launcher.run.JavaAgent - [configure] Launching JetBrains License Service configuration process with command: [/usr/java/jdk1.8.0_121/jre/bin/java, -Djl.service=JetBrains License Service, -Djl.home=/www/wwwroot/idea.uunn.eu, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=250m, -Xmx1024m, -XX:+UseG1GC, -XX:+UseStringDeduplication, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -jar, launcher/lib/app-wrapper/license-server-wrapper.jar, AppConfigurator, com.jetbrains.ls.floating.service.LsFloatingJetLauncherServiceImpl, --listen, 127.0.0.1, --port, 8080] (at path: "/www/wwwroot/idea.uunn.eu", system properties: {launcher.app.home=/www/wwwroot/idea.uunn.eu, launcher.app.conf.dir=/www/wwwroot/idea.uunn.eu/conf, java.awt.headless=true, launcher.app.name=JetBrains License Service})
+[2021-10-26 09:56:42,630]  DEBUG - launcher.ep.commands.Configure - [configure] Configuration process finished with exit code 0
+[2021-10-26 09:56:42,631]  TRACE -                           root - [configure] ================================================================ (finish)
+[2021-10-26 09:57:23,762]  TRACE -                           root - [configure] ================================================================ (start)
+[2021-10-26 09:57:23,783]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher process ID: 32376
+[2021-10-26 09:57:23,785]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher Java: /usr/java/jdk1.8.0_121/jre (version "1.8.0_121", build "1.8.0_121-b13")
+[2021-10-26 09:57:23,785]  DEBUG - launcher.ep.commands.Configure - [configure] JetBrains License Service home directory: /www/wwwroot/idea.uunn.eu
+[2021-10-26 09:57:23,785]  DEBUG - launcher.ep.commands.Configure - [configure] Command line: [configure, --jetty.virtualHosts.names=idea.uunn.eu]
+[2021-10-26 09:57:23,785]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher logs directory: <JetBrains License Service Home>/logs
+[2021-10-26 09:57:23,786]  DEBUG - launcher.ep.commands.Configure - [configure] JetLauncher version: 1.0.131
+[2021-10-26 09:57:23,786]  DEBUG - launcher.ep.commands.Configure - [configure] Loaded launcher plugins: [mac-daemon-commands, ConfPathProvider, win-service-commands]
+[2021-10-26 09:57:23,786]  DEBUG - launcher.ep.commands.Configure - [configure] JetBrains License Service config folder: <JetBrains License Service Home>/conf
+[2021-10-26 09:57:23,787]  DEBUG - .BaseLauncherConfig$BaseParser - [configure] Using launcher configuration file: jar:file:<JetBrains License Service Home>/launcher/lib/license-server-launcher.jar!/launcher.java.config
+[2021-10-26 09:57:23,883]  DEBUG - tbrains.launcher.run.JavaAgent - [configure] Reusing launcher Java for JetBrains License Service
+[2021-10-26 09:57:23,904]  DEBUG - tbrains.launcher.run.JavaAgent - [configure] Launching JetBrains License Service configuration process with command: [/usr/java/jdk1.8.0_121/jre/bin/java, -Djl.service=JetBrains License Service, -Djl.home=/www/wwwroot/idea.uunn.eu, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=250m, -Xmx1024m, -XX:+UseG1GC, -XX:+UseStringDeduplication, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -jar, launcher/lib/app-wrapper/license-server-wrapper.jar, AppConfigurator, com.jetbrains.ls.floating.service.LsFloatingJetLauncherServiceImpl, --jetty.virtualHosts.names=idea.uunn.eu] (at path: "/www/wwwroot/idea.uunn.eu", system properties: {launcher.app.home=/www/wwwroot/idea.uunn.eu, launcher.app.conf.dir=/www/wwwroot/idea.uunn.eu/conf, java.awt.headless=true, launcher.app.name=JetBrains License Service})
+[2021-10-26 09:57:25,183]  DEBUG - launcher.ep.commands.Configure - [configure] Configuration process finished with exit code 0
+[2021-10-26 09:57:25,185]  TRACE -                           root - [configure] ================================================================ (finish)
+[2021-10-26 14:48:25,495]  TRACE -                           root - [start] ================================================================ (start)
+[2021-10-26 14:48:25,571]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 1837
+[2021-10-26 14:48:25,573]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher Java: /usr/java/jdk1.8.0_121/jre (version "1.8.0_121", build "1.8.0_121-b13")
+[2021-10-26 14:48:25,574]  DEBUG - ins.launcher.ep.commands.Start - [start] JetBrains License Service home directory: /www/wwwroot/idea.uunn.eu
+[2021-10-26 14:48:25,574]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2021-10-26 14:48:25,574]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <JetBrains License Service Home>/logs
+[2021-10-26 14:48:25,574]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 1.0.131
+[2021-10-26 14:48:25,574]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [mac-daemon-commands, ConfPathProvider, win-service-commands]
+[2021-10-26 14:48:25,574]  DEBUG - ins.launcher.ep.commands.Start - [start] JetBrains License Service config folder: <JetBrains License Service Home>/conf
+[2021-10-26 14:48:25,575]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:<JetBrains License Service Home>/launcher/lib/license-server-launcher.jar!/launcher.java.config
+[2021-10-26 14:48:25,872]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [/usr/java/jdk1.8.0_121/jre/bin/java, -Djl.service=JetBrains License Service Launcher, -Djl.home=/www/wwwroot/idea.uunn.eu, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=32m, -jar, launcher/lib/license-server-launcher.jar, do, start] (at path: "/www/wwwroot/idea.uunn.eu", system properties: {java.awt.headless=true})
+[2021-10-26 14:48:27,198]  TRACE -                           root - ================================================================ (start)
+[2021-10-26 14:48:27,278]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 2451
+[2021-10-26 14:48:27,281]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: /usr/java/jdk1.8.0_121/jre (version "1.8.0_121", build "1.8.0_121-b13")
+[2021-10-26 14:48:27,281]  DEBUG - rains.launcher.ep.commands.Run - JetBrains License Service home directory: /www/wwwroot/idea.uunn.eu
+[2021-10-26 14:48:27,281]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2021-10-26 14:48:27,281]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <JetBrains License Service Home>/logs
+[2021-10-26 14:48:27,281]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.131
+[2021-10-26 14:48:27,282]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, ConfPathProvider, win-service-commands]
+[2021-10-26 14:48:27,282]  DEBUG - rains.launcher.ep.commands.Run - JetBrains License Service config folder: <JetBrains License Service Home>/conf
+[2021-10-26 14:48:27,282]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<JetBrains License Service Home>/launcher/lib/license-server-launcher.jar!/launcher.java.config
+[2021-10-26 14:48:27,383]   INFO - rains.launcher.ep.commands.Run - Starting JetBrains License Service...
+[2021-10-26 14:48:27,404]  DEBUG - ains.launcher.run.AgentProcess - Tue Oct 26 14:48:27 CST 2021 ==> Start launch
+[2021-10-26 14:48:27,405]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <JetBrains License Service Home>/logs/license-server.pid
+[2021-10-26 14:48:27,405]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <JetBrains License Service Home>/logs/license-server.port
+[2021-10-26 14:48:27,405]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <JetBrains License Service Home>/logs/license-server.exit.flag
+[2021-10-26 14:48:27,408]  DEBUG - tbrains.launcher.run.JavaAgent - Reusing launcher Java for JetBrains License Service
+[2021-10-26 14:48:27,451]  DEBUG - tbrains.launcher.run.JavaAgent - Launching JetBrains License Service process with command: [/usr/java/jdk1.8.0_121/jre/bin/java, -Djl.service=JetBrains License Service, -Djl.home=/www/wwwroot/idea.uunn.eu, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=250m, -Xmx1024m, -XX:+UseG1GC, -XX:+UseStringDeduplication, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -jar, launcher/lib/app-wrapper/license-server-wrapper.jar, AppStarter, com.jetbrains.ls.floating.service.LsFloatingJetLauncherServiceImpl] (at path: "/www/wwwroot/idea.uunn.eu", system properties: {launcher.app.home=/www/wwwroot/idea.uunn.eu, launcher.app.conf.dir=/www/wwwroot/idea.uunn.eu/conf, java.awt.headless=true, launcher.app.name=JetBrains License Service})
+[2021-10-26 14:48:36,637]   INFO - ins.launcher.ep.commands.Start - [start] JetBrains License Service is running
+[2021-10-26 14:48:36,638]  TRACE -                           root - [start] ================================================================ (finish)
