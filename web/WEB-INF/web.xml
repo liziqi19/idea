@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+    <session-config>
+        <session-timeout>15</session-timeout>
+        <cookie-config>
+            <http-only>true</http-only>
+        </cookie-config>
+    </session-config>
+
+    <context-param>
+        <param-name>org.eclipse.jetty.servlet.SessionCookie</param-name>
+        <param-value>FLS-SESSION</param-value>
+    </context-param>
+
+    <servlet>
+        <display-name>KaraServlet</display-name>
+        <servlet-name>KaraServlet</servlet-name>
+        <servlet-class>kara.internal.Servlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <async-supported>true</async-supported>
+        <multipart-config>
+            <!-- 50mb max file -->
+            <max-file-size>52428800</max-file-size>
+            <max-request-size>52428800</max-request-size>
+            <file-size-threshold>0</file-size-threshold>
+        </multipart-config>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/static/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>KaraServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
